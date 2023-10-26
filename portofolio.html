@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width,initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body class="studio-prezentation">
+    <div class="js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg>
+          <use href="./images/icons.svg.svg#icon-close_24px" ></use>
+        </svg>
+      </button>
+      <nav class="menu-drawer-navigation">
+     <ul class="menu-drawer-list">
+      <li><a href="./index.html" >Studio</a></li>
+            <li><a href="./portofolio.html" class="active" >Portofolio</a></li>
+            <li><a href="#">Contacts</a></li>
+     </ul>
+      </nav>
+
+      <div class="contact-menu-navigation">
+        <a  href="tel:+12127724150">+1 212-772-4150</a>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </div>
+
+      <div class="container-social-media">
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <img class="dash" src="./images/horizontal-dash.svg" alt="Horizontal Dash" />
+        <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+        <img class="dash" src="./images/horizontal-dash.svg" alt="Horizontal Dash" />
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <img class="dash" src="./images/horizontal-dash.svg" alt="Horizontal Dash" />
+        <a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+
+      </div>
+
+     </div>
+
+  <header class="global-header">
+    
+    <a href="./index.html/"></a>
+    <section class="nav-container">
+      <h4 class="nav-title"><span class="accent">Web</span>Studio</h4>
+
+      <div class="navigation">
+        <nav class="main-navigation">
+          <ul class="list-class">
+            <li><a href="./index.html" class="nav-link ">Studio</a></li>
+            <li><a href="./portofolio.html" class="nav-link current">Portofolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+        
+          <div class="contact-container">
+            <div class="icon-mail">
+              <svg class="mail">
+                <use href="./images/icons.svg.svg#icon-envelope-hover-1" >
+                </use>
+              </svg>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            
+            </div>
+          
+            <div class="icon-phone">
+              <svg class="phone">
+                <use href="./images/icons.svg.svg#icon-smartphone-1">
+                </use>
+              </svg>
+              <a class="tel" href="tel:+12127724150">+1 212-772-4150</a>
+            </div>
+          </div>
+        
+          <div class="menu-button js-open-menu">
+            <svg>
+              <use href="./images/icons.svg.svg#icon-menu_40px-1" ></use>
+            </svg>
+          </div>
+     
+    </section>
+  </header>
+    <main class="portofolio-container">
+      <ul class="portofolio-button">
+        <li class="button-list"><button type="button">All</button></li>
+        <li class="button-list"><button type="button">Web-sites</button></li>
+        <li class="button-list"><button type="button">Apps</button></li>
+        <li class="button-list"><button type="button">Design</button></li>
+        <li class="button-list"><button type="button">Marketing</button></li>
+      </ul>
+
+      <ul class="images">
+        <li class="item">
+          <div class="box">
+            <img
+            src="./images/PortofolioTechnoduck.jpg"
+            alt="Tehnoduck"
+            width="370"
+          />
+          
+            <div class="description-images">
+              <p>Technoduck is a state-of-the-art coronavirus distribution platform.
+                 Companies use this platform for digital espionage and attacks on 
+                 competitors' secure servers.</p>
+            </div>
+          
+          </div>
+          <div class="product">
+            <br />
+          <span class="description-product">Technoduck</span>
+          <br />
+          <span class="category-product">Web-site</span>
+          </div>
+        </li>
+
+        <li class="item">
+          <div class="box">
+           <picture>
+             <!-- Desktop -->
+             <source
+             media="(min-width: 1158px)"
+             srcset="
+             ./images/Poster-Orlean-Star-d1.png   1x,
+             ./images/Poster-Orlean-Star-d2.png 2x
+             "
+           />
+ 
+           <!-- Tablet -->
+           <source
+             media="(min-width: 768px)"
+             srcset="
+               ./images/Poster-Orlean-Star-t1.png   1x,
+               ./images/Poster-Orlean-Star-t2.png 2x
+             "
+           />
+ 
+           <!-- Mobile -->
+           <source
+             srcset="
+             ./images/Poster-Orlean-Star-m1.png    1x,
+             ./images/Poster-Orlean-Star-m2.png 2x
+             "
+           />
+            <img
+            src="./images/Poster-Orlean-Star.jpg"
+            alt="New Orlean vs Golden Star"
+            width="370"
+          />
+           </picture>
+          <div class="description-images"></div>
+          </div>
+          
+          <div class="product">
+            
+            <br />
+          <span class="description-product"
+            >Poster New Orlean vs Golden Star</span
+          >
+          <br />
+          <span class="category-product">Design</span>
+          </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+              <!-- Desktop -->
+              <source
+                media="(min-width: 1158px)"
+                srcset="
+                ./images/Seafood-d1.png    1x,
+                ./images/Seafood-d2.png 2x
+                "
+              />
+    
+              <!-- Tablet -->
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                ./images/Seafood-t1.png    1x,
+                ./images/Seafood-t2.png 2x
+                "
+              />
+    
+              <!-- Mobile -->
+              <source
+                srcset="
+                ./images/Seafood-m1.png  1x,
+                ./images/Seafood-m2.png 2x
+                "
+              /> 
+              <img
+            src="./images/Seafood.jpg"
+            alt="Seafood Restaurant"
+            width="370"
+          />
+            </picture>
+          <div class="description-images"></div>
+          </div>
+          
+          <div class="product">
+            <br />
+          <span class="description-product">Seafood Restaurant</span>
+
+          <br />
+          <span class="category-product">Apps</span>
+          </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+           <picture>
+             <!-- Desktop -->
+             <source
+             media="(min-width: 1158px)"
+             srcset="
+             ./images/HeadPhones-d1.png   1x,
+             ./images/HeadPhones-d2.png 2x
+             "
+           />
+ 
+           <!-- Tablet -->
+           <source
+             media="(min-width: 768px)"
+             srcset="
+             ./images/HeadPhones-t1.png   1x,
+             ./images/HeadPhones-t2.png 2x
+             "
+           />
+ 
+           <!-- Mobile -->
+           <source
+             srcset="
+             ./images/HeadPhones-m1.png   1x,
+             ./images/HeadPhones-m2.png 2x
+             "
+           />
+            <img src="./images/HeadPhones.jpg" 
+            alt="HeadPhones" 
+            width="370" />
+           </picture>
+          
+          <div class="description-images"></div>
+          </div>
+          
+          <div class="product">
+            <br />
+          <span class="description-product">Project Prime </span>
+          <br />
+          <span class="category-product">Marketing</span>
+          </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+               <!-- Desktop -->
+               <source
+               media="(min-width: 1158px)"
+               srcset="
+               ./images/Boxes-d1.png    1x,
+               ./images/Boxes-d2.png 2x
+               "
+             />
+   
+             <!-- Tablet -->
+             <source
+               media="(min-width: 768px)"
+               srcset="
+               ./images/Boxes-t1.png   1x,
+               ./images/Boxes-t2.png 2x
+               "
+             />
+   
+             <!-- Mobile -->
+             <source
+               srcset="
+               ./images/Boxes-m1.png   1x,
+               ./images/Boxes-m2.png 2x
+               "
+             />
+              <img src="./images/Boxes.jpg" 
+            alt="Boxes" 
+            width="370" />
+            </picture>
+          
+          <div class="description-images"></div>
+          </div>
+         <div class="product">
+          <br />
+          <span class="description-product"> Project Boxes </span>
+          <br />
+          <span class="category-product">Apps</span>
+         </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+               <!-- Desktop -->
+               <source
+               media="(min-width: 1158px)"
+               srcset="
+               ./images/Monitor-d1.png   1x,
+               ./images/Monitor-d2.png 2x
+               "
+             />
+   
+             <!-- Tablet -->
+             <source
+               media="(min-width: 768px)"
+               srcset="
+               ./images/Monitor-t1.png    1x,
+               ./images/Monitor-t2.png 2x
+               "
+             />
+   
+             <!-- Mobile -->
+             <source
+               srcset="
+               ./images/Monitor-m1.png   1x,
+               ./images/Monitor-m2.png 2x
+               "
+             />
+              <img src="./images/Monitor.jpg"
+             alt="Monitor "
+              width="370" />
+            </picture>
+          
+          <div class="description-images"></div>
+          </div>
+          
+          <div class="product">
+            <br />
+          <span class="description-product"> Inspiration has no Borders </span>
+          <br />
+          <span class="category-product">Web-site</span>
+          </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+               <!-- Desktop -->
+               <source
+               media="(min-width: 1158px)"
+               srcset="
+               ./images/Book-d1.png   1x,
+               ./images/Book-d2.png 2x
+               "
+             />
+   
+             <!-- Tablet -->
+             <source
+               media="(min-width: 768px)"
+               srcset="
+                 ./images/Book-t1.png    1x,
+                 ./images/Book-t2.png 2x
+               "
+             />
+   
+             <!-- Mobile -->
+             <source
+               srcset="
+               ./images/Book-m1.png    1x,
+               ./images/Book-m2.png 2x
+               "
+             />
+              <img src="./images/Book.jpg" alt="Book " width="370" />
+            </picture>
+          
+          <div class="description-images"></div>
+          </div>
+          
+          <div class="product">
+            <br />
+          <span class="description-product"> Limited Edition </span>
+          <br />
+          <span class="category-product">Design</span>
+          </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+               <!-- Desktop -->
+               <source
+               media="(min-width: 1158px)"
+               srcset="
+               ./images/Label-d1.png   1x,
+               ./images/Label-d2.png 2x
+               "
+             />
+   
+             <!-- Tablet -->
+             <source
+               media="(min-width: 768px)"
+               srcset="
+               ./images/Label-t1.png   1x,
+               ./images/Label-t2.png 2x
+               "
+             />
+   
+             <!-- Mobile -->
+             <source
+               srcset="
+               ./images/Label-m1.png   1x,
+               ./images/Label-m2.png 2x
+               "
+             />
+              <img src="./images/Label.jpg" alt="Label " width="370" />
+            </picture>
+          
+          <div class="description-images"></div>
+          </div>
+          
+         <div class="product">
+          <br />
+          <span class="description-product"> Project LAB </span>
+          <br />
+          <span class="category-product">Marketing</span>
+         </div>
+        </li>
+
+        <li  class="item">
+          <div class="box">
+            <picture>
+               <!-- Desktop -->
+               <source
+               media="(min-width: 1158px)"
+               srcset="
+               ./images/laptop-d1.png   1x,
+               ./images/laptop-d2.png      2x
+               "
+             />
+   
+             <!-- Tablet -->
+             <source
+               media="(min-width: 768px)"
+               srcset="
+               ./images/laptop-t1.png   1x,
+               ./images/laptop-t2.png 2x
+               "
+             />
+   
+             <!-- Mobile -->
+             <source
+               srcset="
+               ./images/laptop-m1.png   1x,
+               ./images/laptop-m2.png 2x
+               "
+             />
+              <img src="./images/laptop.jpg" alt="Laptop " width="370" />
+            </picture>
+          
+          <div class="description-images"></div>
+          </div>
+          
+         <div class="product">
+          <br />
+          <span class="description-product"> Growing Business </span>
+          <br />
+          <span class="category-product">Apps</span>
+         </div>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <div class="container-adress"> 
+        <div class="adress-footer">
+          <div class="footer-child-container">
+            <h4><span class="highlight">Web</span>Studio</h4>
+         <address class="adress">
+            <ul class="useful-information" >
+              <li>
+                <span>695 Park Ave, NY 10065, USA </span>
+            
+              </li>
+              <br />
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+           
+            </li>
+            <br />
+            <li>
+              <a href="tel:+12127724150">+1 212-772-4150</a>
+          
+            </li>
+            </ul>
+          </address>
+        </div>
+           <div class="footer-child-container">
+           <h3 class="title-find">Find us on</h3>
+            <ul class="icon-social-find">
+              <li class="icon-social-item">
+                <svg  class="instagram1" >
+                  <use href="./images/icons.svg.svg#icon-instagram-2-1"></use>
+                </svg>
+              </li>
+              <li class="icon-social-item">
+                <svg class="twitter1">
+                  <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                </svg>
+              </li>
+              <li class="icon-social-item">
+                <svg class="facebook1">
+                  <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                </svg>
+              </li>
+              <li class="icon-social-item">
+                <svg class="linkedin1">
+                  <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+              </svg>
+              </li>
+             
+             </ul>
+            </div> 
+          
+              <form class="footer-form">
+                
+                  <label class="form-title" for="email">Subscribe to the newsletter </label>
+                    <div class="form-email">
+                      <input class="email"type="email" name="email"  id="email" placeholder="E-mail"/>
+                 
+                  <div class="form-subscribe-container">
+                    <button class="form-subscribe" type="submit">Subscribe</button>
+                  <svg class="icon-send">
+                    <use href="./images/icons.svg.svg#icon-icon-send-1" >
+                    </use>
+                  </svg>
+                  </div>
+                    </div>
+              </form>
+        </div>
+          
+        </div>
+  
+        <div class="container-adress-tableta"> 
+          <div class="adress-footer-tableta">
+            <div class="footer-child-container">
+              <h4><span class="highlight-tableta">Web</span>Studio</h4>
+           <address class="adress">
+              <ul class="useful-information-tableta" >
+                <li>
+                  <span>695 Park Ave, NY 10065, USA </span>
+              
+                </li>
+                <br />
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+             
+              </li>
+              <br />
+              <li>
+                <a href="tel:+12127724150">+1 212-772-4150</a>
+            
+              </li>
+              </ul>
+            </address>
+          </div>
+             <div class="footer-child-container-tableta">
+             <h3 class="title-find">Find us on</h3>
+              <ul class="icon-social-find">
+                <li class="icon-social-item">
+                  <svg  class="instagram1" >
+                    <use href="./images/icons.svg.svg#icon-instagram-2-1"></use>
+                  </svg>
+                </li>
+                <li class="icon-social-item">
+                  <svg class="twitter1">
+                    <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                  </svg>
+                </li>
+                <li class="icon-social-item">
+                  <svg class="facebook1">
+                    <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                  </svg>
+                </li>
+                <li class="icon-social-item">
+                  <svg class="linkedin1">
+                    <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                </svg>
+                </li>
+               
+               </ul>
+              </div> 
+            
+                <form class="footer-form-tableta">
+                  <div>
+                    
+                    <label class="form-title" for="email">Subscribe to the newsletter </label>
+                      <div class="form-email-tableta">
+                        <input class="email"type="email" name="email"  id="email" placeholder="E-mail"/>
+                   
+                    <div class="form-subscribe-container">
+                      <button class="form-subscribe" type="submit">Subscribe</button>
+                    <svg class="icon-send">
+                      <use href="./images/icons.svg.svg#icon-icon-send-1" >
+                      </use>
+                    </svg>
+                    </div>
+                      </div>
+                  </div>
+                </form>
+          </div>
+            
+          </div>
+          
+          <div class="container-adress-desktop"> 
+            <div class="adress-footer">
+              <div class="footer-child-container-desktop">
+                <h4><span class="highlight-desktop">Web</span>Studio</h4>
+             <address class="adress">
+                <ul class="useful-information-desktop" >
+                  <li>
+                    <span>695 Park Ave, NY 10065, USA </span>
+                
+                  </li>
+                  <br />
+                <li>
+                  <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+               
+                </li>
+                <br />
+                <li>
+                  <a href="tel:+12127724150">+1 212-772-4150</a>
+              
+                </li>
+                </ul>
+              </address>
+            </div>
+               <div class="footer-child-container-desktop">
+               <h3 class="title-find-desktop">Find us on</h3>
+                <ul class="icon-social-find-desktop">
+                  <li class="icon-social-item-desktop">
+                    <svg  class="instagram1" >
+                      <use href="./images/icons.svg.svg#icon-instagram-2-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icon-social-item">
+                    <svg class="twitter1">
+                      <use href="./images/icons.svg.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icon-social-item">
+                    <svg class="facebook1">
+                      <use href="./images/icons.svg.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icon-social-item">
+                    <svg class="linkedin1">
+                      <use href="./images/icons.svg.svg#icon-linkedin-1"></use>
+                  </svg>
+                  </li>
+                 
+                 </ul>
+                </div> 
+              
+                  <form class="footer-form-desktop">
+                    
+                      <label class="form-title-desktop" for="email">Subscribe to the newsletter </label>
+                        <div class="form-email-desktop">
+                          <input class="email-desktop"type="email" name="email"  id="email" placeholder="E-mail"/>
+                     
+                      <div class="form-subscribe-container-desktop">
+                        <button class="form-subscribe-desktop" type="submit">Subscribe</button>
+                      <svg class="icon-send-desktop">
+                        <use href="./images/icons.svg.svg#icon-icon-send-1" >
+                        </use>
+                      </svg>
+                      </div>
+                        </div>
+                  </form>
+            </div>
+              
+            </div>
+  
+      
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
